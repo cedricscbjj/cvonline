@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cedric Saint Charles Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GYHZVGZS2B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GYHZVGZS2B');
+</script>
+
+
+
+
+<body>
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p id="titremodal"></p>
+            <p id="modalMessage">Etes vous sur de vouloir acceder à cette partie?</p>
+
+            <div id="display">
+
+                <a href="attente.html">  <button type="button" class="btn btn-primary">oui</button> </a>
+                
+                <button type="button" class="btn btn-danger" onclick="closeModal()" >non</button>
+            </div>
+        
+
+        </div>
+    </div>
+
+
+    <div id="myModal2" class="modal">
+        <div class="modal-content2">
+            <span class="close" onclick="closeModal2()">&times;</span>
+            <p id="titremodal2">Message:</p>
+            <p id="modalMessage2">Le Portfolio est inaccessible pour le moment... Projet à venir: Un site sur l'astronomie, une appli méteo... mais vous pouvez deja visiter  <a  href="http://www.mixedmartialartist.fr">www.mixedmartialartist.fr</a></p>
+        </div>
+    </div>
+
+
+
+
+
+    <nav class="navbar navbar-expand-md navbar-light "    style="background-color: #F7EFF2;"  >
+        <a class="navbar-brand" href="#">
+            <img src="TITRECV.png" id= "imagetitre" alt="Logo"width="180" height="90">
+          </a>    
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/cedricscbjj/cvpdf/blob/main/Cedric.pdf" >         <img src="cv.png" alt="Logo"width="60" height="60" id="e"   >
+              </a>
+            </li>
+           
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <img class="img-fluid" src="pyramide.png" width="60" height="60" id="a" onclick="openModal(this)"  >                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/cedricscbjj">
+                    <img class="img-fluid  " src="github.png"  width="60" height="60" id="b" >                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://linkedin.com/in/cedric-st-charles-65270973">
+                    <img class="img-fluid" src="linkedin.png" width="60" height="60"id="c"  >
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mailto:c.saint.charles.csc@gmail.com">
+                    <img class="img-fluid" src="gmail.png" width="60" height="60"id="d"  >
+                </a>
+            </li>
+        </ul>
+
+
+
+
+        </div>
+      </nav>
+
+
+
+
+
+<div class="row"  id="frontrow">
+
+
+<div class="col">
+
+
+    <h1 id="pop">Cedric Saint Charles</h1>
+    <p id="metier">DEVELOPPEUR FRONT/BACK</p>
+</div>
+<div class="col">
+
+
+    <p   id="salut">
+        Je partage  mon temps entre mes entraînements de jiu-jitsu brésilien, ma passion pour l'astronomie et mes moments de lecture enrichissants. Concernant l'informatique j'apprécie m'engager dans des projets novateurs qui impactent positivement la société et préservent l'idéologie fondamentale d'Internet : un espace de liberté où le savoir de l'humanité est accessible à tous, sans aucune entrave.   </p>
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="row"  id="formation">
+
+<div class="col"><p id="formation1">Au sein de l'ecole digital O'clock, via la promotion Flamel de l'année 2022, j'ai consacré une période intensive de sept mois à un bootcamp de code informatique. Cette immersion m'a permis de prendre conscience de mon attrait pour l'art du développement informatique</p></div>
+<div class="col">
+
+
+    <div class="flip-box">
+        <h3>Experiences</h3>
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+              <img class="img-fluid"
+            src="recto.png"
+            alt=""
+            width="530" height="530">
+        
+          </div>
+          <div class="flip-box-back">
+           
+               <img class="img-fluid"
+            src="verso.png"
+            alt=""
+            width="530" height="530">
+        
+
+          </div>
+        </div>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="row">
+
+<div class="col-7">
+   <h2>Portfolio</h2>
+    <div>
+        <img class="img-fluid" src="PORTFOLIO.jpg" width="510" height="390" onclick="openModal2(this)"  >
+
+    </div>
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+<div class="row">
+
+    <div class="col-2">
+
+        <img class="img-fluid" src="IMGTEST.png"   onclick="imagefun()"   id="getImage">
+    
+    </div>
+
+<div class="col-3">
+    <p id="talk"> </p>
+
+</div>
+
+</div>
+
+
+
+
+    <footer>     
+        <div id="bonjour"> <span class="auto-input2"></span></div>
+    
+    </footer>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var navLinks = document.querySelectorAll('.navbar-nav>li>a');
+    
+        for (var i = 0; i < navLinks.length; i++) {
+          navLinks[i].addEventListener('click', function() {
+            var navbarCollapse = document.querySelector('.navbar-collapse');
+            navbarCollapse.classList.remove('show');
+          });
+        }
+      });
+
+
+
+
+
+      function openModal() {
+    var modal = document.getElementById("myModal");
+    modal.style.display = "block";
+    alert("attention à ce que vous allez faire!!!");
+
+}
+
+function closeModal() {
+    var modal = document.getElementById("myModal");
+    modal.style.display = "none";
+}
+
+
+function openModal2() {
+    var modal = document.getElementById("myModal2");
+    modal.style.display = "block";
+}
+
+function closeModal2() {
+    var modal = document.getElementById("myModal2");
+    modal.style.display = "none";
+}
+
+
+    </script>
+
+
+<script  src="myhead.js"></script>
+<script src="footer.js"></script> 
+
+
+</body>
+</html>
